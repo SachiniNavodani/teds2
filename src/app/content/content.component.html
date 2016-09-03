@@ -1,0 +1,5 @@
+<div >
+ <login-panel *ngIf="show"></login-panel>
+ <Button *ngIf="hide" (click)="show_login()">Show login</Button>
+ <Button *ngIf="show" (click)="hide_login()">Hide login</Button>
+</div>
